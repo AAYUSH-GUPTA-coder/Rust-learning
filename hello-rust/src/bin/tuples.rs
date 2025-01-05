@@ -4,9 +4,9 @@
 // - tuple
 // - array
 
-fn main(){
+fn main() {
     // Tuple
-    let t: (bool, i32, char) = (true, 1, 'c');  
+    let t: (bool, i32, char) = (true, 1, 'c');
     // Destruction
     let (a, b, c) = t;
     // ignore with _
@@ -16,7 +16,7 @@ fn main(){
     // Nested tuple
     let nested = ((1.23, 'a'), (true, 1u32, 'b'), ());
 
-    let t:(bool,u32,char) = (true, 1, 'c');
+    let t: (bool, u32, char) = (true, 1, 'c');
     t.0; // true
     t.1; // 1
     t.2; // c
