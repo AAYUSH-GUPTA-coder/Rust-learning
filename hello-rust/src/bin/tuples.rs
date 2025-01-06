@@ -26,5 +26,5 @@ fn main() {
 
     println!("nested {:?}", nested);
     println!("nested {:#?}", nested);
-    println!("nested = {} {}", nested.0.0, nested.1.2);
+    println!("nested = {} {}", nested.0 .0, nested.1 .2);
 }

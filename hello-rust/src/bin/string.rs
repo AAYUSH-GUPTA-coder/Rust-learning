@@ -5,7 +5,6 @@ fn main() {
     // String = vector of u8 (Vec<u8>) valid UTF-8. Vector are link array that can grow and shrink in size
     // &str = slice (string slice) of u8 ( &[u8] ) valid UTF-8.
 
-
     // when to use String vs &str
     // String -> mutate or data needs to be owned
     // &str -> read only
@@ -23,7 +22,7 @@ fn main() {
 
     let msg: String = String::from("Hello Rust 🦀");
     let s: &str = &msg[..5]; // first 5 characters
-    let len: usize= s.len();
+    let len: usize = s.len();
     println!("s: {s}");
     println!("len: {len}");
 
